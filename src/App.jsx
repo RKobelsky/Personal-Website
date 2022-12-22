@@ -5,7 +5,7 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Skills from './components/skills/Skills'
 import Portfolio from './components/portfolio/Portfolio'
-import Coursework from './components/coursework (testimonials)/Coursework'
+import Coursework from './components/coursework/Coursework'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
