@@ -42,7 +42,8 @@ const About = () => {
               My name is Russell Kobelsky. I am currently a sophomore attending the University of Michigan
               pursuing a Bachelor's Degree in Computer Science, with a minor in Business. I have a passion
               for using software development to create immersive user experiences, especially through the 
-              lens of game development and space exploration.
+              lens of game development and augmented reality. Some of my hobbies include basketball, gaming
+              (especially Pokemon!), and space-related stuff.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
