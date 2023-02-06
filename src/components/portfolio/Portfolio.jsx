@@ -5,6 +5,7 @@ import IMG2 from '../../assets/nasasuits.png'
 import IMG3 from '../../assets/raptortractors.png'
 import IMG4 from '../../assets/curseortreat.png'
 import IMG5 from '../../assets/monkeymedic.png'
+import IMG6 from '../../assets/roots.PNG'
 
 const Portfolio = () => {
   return (
@@ -13,6 +14,17 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+      <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Roots: Renewal of Bloom</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/RKobelsky/Roots-Renewal-of-Bloom" className='btn' target="_blank" >GitHub</a>
+            <a href="https://sld-studios.itch.io/roots-renewal-of-bloom" className='btn btn-primary' target="_blank" >Check it out</a>
+          </div>
+        </article>
+
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />

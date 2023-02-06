@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/About Me.jpg'
-import {HiOutlineAcademicCap} from 'react-icons/hi'
-import {AiOutlineLaptop} from 'react-icons/ai'
-import {BsTools} from 'react-icons/bs'
+import { HiOutlineAcademicCap } from 'react-icons/hi'
+import { AiOutlineLaptop } from 'react-icons/ai'
+import { BsTools } from 'react-icons/bs'
 
 const About = () => {
   return (
