@@ -4,6 +4,7 @@ import eecs203 from '../../assets/eecs203.png'
 import eecs183 from '../../assets/eecs183.png'
 import eecs280 from '../../assets/eecs280.webp'
 import si110 from '../../assets/si110.png'
+import eecs281 from '../../assets/eecs281.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -24,6 +25,22 @@ const Coursework = () => {
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}>
+
+          <SwiperSlide className="course">
+            <div className="class__avatar">
+              <img src={eecs281} alt="EECS 281" />
+            </div>
+            <h5 className='class__name'>Data Structures & Algorithms</h5>
+              <small className='class__review'>
+                I took Data Structures & Algorithms (EECS 281) in the Winter of 2022. The class
+                goes in depth teaching the fundamental data structures and algorithms found 
+                in computer science. I learned how to implement strucures such as stacks, 
+                priority queues, and hashtables in order to construct efficient algorithms such
+                as streaming algorithms, BFS, DFS, and optimization algorithms to create projects
+                that solve problems such as TSP, map cartography, database management, and stock
+                trading.
+              </small>
+          </SwiperSlide>
 
           <SwiperSlide className="course">
             <div className="class__avatar">
